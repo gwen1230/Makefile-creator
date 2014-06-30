@@ -4,6 +4,7 @@ Makefile-creator by le-nei_g
 script that creates a minimal Makefile
 
 How to use:
+You must use python3.x
 It must be executed where the Makefile wants to be created
 
 Option :
