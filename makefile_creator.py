@@ -79,7 +79,7 @@ def create_makefile(ndir):
     f.writelines("fclean:\t\tclean\n")
     f.writelines("\t\t$(RM) $(NAME)\n\n")
     f.writelines("re:\t\tfclean all\n\n")
-	f.writelines(".PHONY: all test clean fclean re\n")
+    f.writelines(".PHONY: all test clean fclean re\n")
     f.close()
 
 def add_dir(ndir):
